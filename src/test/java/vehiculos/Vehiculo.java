@@ -8,7 +8,7 @@ public class Vehiculo {
 	private String placa;
 	private int puertas;
 	private String nombre;
-	private long precio;
+	private int precio;
 	private int peso;
 	private String traccion;
 	private Fabricante fabricante;
@@ -16,7 +16,7 @@ public class Vehiculo {
 	private static List<Fabricante> ventafabri = new ArrayList <Fabricante>();
 	private static List<Pais> paises = new ArrayList <Pais>();
 	
-	public Vehiculo(String pla, int puertas, int velocidadMaxima, String nom,long precio,int peso, String traccion, Fabricante fabricante){
+	public Vehiculo(String pla, int puertas, int velocidadMaxima, String nom,int precio,int peso, String traccion, Fabricante fabricante){
 		this.nombre = nom;
 		this.placa= pla;
 		this.peso = peso;
@@ -41,10 +41,10 @@ public class Vehiculo {
 	public String getPlaca() {
 		return this.placa;
 	}
-	public void setPrecio(long Precio) {
+	public void setPrecio(int Precio) {
 		this.precio = Precio;
 	}
-	public long getPrecio() {
+	public int getPrecio() {
 		return this.precio;
 	}
 	public  void setPuertas(int puertas) {
