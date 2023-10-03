@@ -24,7 +24,7 @@ public class Fabricante {
 		this.pais = pais;
 	}
 	public Pais getPais() {
-		return pais;
+		return this.pais;
 	}
 	
 	public static Fabricante fabricaMayorVentas() {
