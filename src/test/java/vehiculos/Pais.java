@@ -11,7 +11,6 @@ public class Pais {
 		this.nombre = nombre;
 		Pais.quepais.add(this);
 	}
-	
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
