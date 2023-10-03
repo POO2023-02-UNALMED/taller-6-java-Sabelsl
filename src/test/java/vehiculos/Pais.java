@@ -9,6 +9,7 @@ public class Pais {
 	
 	public Pais(String nombre) {
 		this.nombre = nombre;
+		Pais.quepais.add(this);
 	}
 	
 	public void setNombre(String nombre) {
